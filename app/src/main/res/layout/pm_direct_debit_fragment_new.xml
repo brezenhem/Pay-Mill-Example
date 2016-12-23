@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@color/colorAppGreen"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:background="@color/colorBackground"
+            android:visibility="visible">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameText"
+                android:textColor="@color/colorEditText"
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/accountNumberText"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:textColor="@color/colorEditText"
+                android:imeOptions="actionNext">
+            </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bankCodeText"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:textColor="@color/colorEditText"
+                android:imeOptions="actionDone"/>
+
+            <TextView
+                android:id="@+id/price_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorEditHint"
+                android:textSize="@dimen/text_style_medium"
+                android:lineSpacingMultiplier="1.2"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+
+            <TextView
+                android:id="@+id/price_discount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorEditHint"
+                android:textSize="@dimen/text_style_medium"
+                android:lineSpacingMultiplier="1.2"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/elv_trigger_btn"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_edit_height"
+                android:gravity="center"
+                android:text="FINISH"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">PayMill Example</string>
+    <string name="full_name">CARD HOLDER</string>
+    <string name="card_number">CARD NUMBER</string>
+    <string name="valid">VALID</string>
+    <string name="ccv">CCV</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+	<!-- Direct debit -->
+
+    <string name="pm_dd_account_holder_label">HOLDER</string>
+    <string name="pm_dd_account_number_label">IBAN</string>
+    <string name="pm_dd_bank_code_label">BIC</string>
+    <!-- ELV -->
+    <!-- Credit Card -->
+    <!-- Main / Shared -->
+
+</resources>
