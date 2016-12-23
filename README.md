@@ -10,7 +10,7 @@ VersionName "1.0"
 
 Project description
 -------------------
-This examole created for fast and easy implementation of the payment service PAYMILL in your project. Just add the module itself in the project, and change the layout of screens for your design.
+This example created for fast and easy implementation of the payment service PAYMILL in your project. Just add the module itself in the project, and change the layout of screens for your design.
 
 This module is made on the basis of the PAYMILL source code: https://github.com/paymill/paymill-android/tree/master/samples/vouchermill
 
