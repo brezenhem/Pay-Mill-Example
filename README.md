@@ -22,9 +22,9 @@ Among the differences:
 - Added test data user for payment
 - Made easy selection interface type of payment system
 
-![](https://github.com/brezenhem/PayMill-Example/blob/master/screen_1.png)
+![](https://github.com/brezenhem/Pay Mill-Example/blob/master/screen_1.png)
 
-![](https://github.com/brezenhem/PayMill-Example/blob/master/screen_2.png)
+![](https://github.com/brezenhem/Pay Mill-Example/blob/master/screen_2.png)
 
-![](https://github.com/brezenhem/PayMill-Example/blob/master/screen_3.png)
+![](https://github.com/brezenhem/Pay Mill-Example/blob/master/screen_3.png)
  
